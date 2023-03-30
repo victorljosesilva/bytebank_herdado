@@ -15,7 +15,7 @@ public class Gerente extends Funcionario implements Autenticavel{
 	}
 
 	@Override
-	public boolean autentica() {
+	public boolean autentica(int senhaCorreta) {
 		// TODO Auto-generated method stub
 		return false;
 	}
