@@ -17,7 +17,6 @@ public class Administrador extends Funcionario implements Autenticavel {
 	@Override
 	public boolean autentica() {
 		// TODO Auto-generated method stub
-		return false;
 	}
 
 }

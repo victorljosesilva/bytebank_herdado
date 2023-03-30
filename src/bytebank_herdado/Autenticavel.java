@@ -3,5 +3,5 @@ package bytebank_herdado;
 public interface Autenticavel {
 	public void setSenha(int senha);
 	
-	public boolean autentica();
+	public boolean autentica(int senhaCorreta);
 }
