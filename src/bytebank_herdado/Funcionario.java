@@ -1,5 +1,5 @@
 package bytebank_herdado;
 
-public class Funcionario {
-
+public abstract class Funcionario {
+	
 }
