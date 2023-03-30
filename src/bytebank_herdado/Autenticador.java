@@ -6,4 +6,10 @@ public abstract class Autenticador {
 	public void setSenha(int senha) {
 		this.senha = senha;
 	}
+	
+	public boolean autentica(int senhaCorreta) {
+		if(this.senha == senhaCorreta) {
+			return true;
+		} return false;
+	}
 }
