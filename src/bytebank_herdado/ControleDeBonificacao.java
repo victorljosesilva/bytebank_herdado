@@ -6,4 +6,8 @@ public class ControleDeBonificacao {
 	public void registraFuncionario(Funcionario f) {
 		this.total += this.total + f.getBonificacao();
 	}
+	
+	public double getTotal() {
+		return this.total;
+	}
 }
