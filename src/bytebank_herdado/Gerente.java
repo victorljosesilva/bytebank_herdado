@@ -7,10 +7,14 @@ public class Gerente extends Funcionario implements Autenticavel{
 		// TODO Auto-generated method stub
 		return super.getSalario();
 	}
+	
+	public void setSenha(int senha) {
+		this.autenticador.setSenha(senha);
+	}
 
 	@Override
 	public boolean autentica(int senhaCorreta) {
 		// TODO Auto-generated method stub
-		return autenticador.setSenha(senhaCorreta);
+		return this.autenticador.autentica(senhaCorreta);
 	}
 }
