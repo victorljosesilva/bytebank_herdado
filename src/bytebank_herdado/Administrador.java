@@ -1,7 +1,7 @@
 package bytebank_herdado;
 
 public class Administrador extends Funcionario implements Autenticavel {
-	private Autenticador autenticador;
+	private Autenticador autenticador = new Autenticador();
 	@Override
 	public double getBonificacao() {
 		// TODO Auto-generated method stub
