@@ -5,7 +5,7 @@ public class Administrador extends Funcionario {
 	@Override
 	public double getBonificacao() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 50;
 	}
 
 }
