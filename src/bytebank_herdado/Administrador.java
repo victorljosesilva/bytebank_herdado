@@ -7,7 +7,8 @@ public class Administrador extends Funcionario implements Autenticavel {
 		// TODO Auto-generated method stub
 		return 50;
 	}
-
+	
+	@Override
 	public void setSenha(int senha) {
 		// TODO Auto-generated method stub
 		this.autenticador.setSenha(senha);

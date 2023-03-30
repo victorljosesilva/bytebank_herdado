@@ -8,6 +8,7 @@ public class Gerente extends Funcionario implements Autenticavel{
 		return super.getSalario();
 	}
 	
+	@Override
 	public void setSenha(int senha) {
 		this.autenticador.setSenha(senha);
 	}
