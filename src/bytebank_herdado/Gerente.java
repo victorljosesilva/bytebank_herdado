@@ -5,7 +5,7 @@ public class Gerente extends Funcionario {
 	@Override
 	public double getBonificacao() {
 		// TODO Auto-generated method stub
-		return 0;
+		return super.getSalario();
 	}
 
 }
